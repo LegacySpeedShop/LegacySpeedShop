@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy Speed Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #d10000;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: #1e1e1e;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background: #d10000;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Legacy Speed Shop
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="shop">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="helmet.jpg" alt="Motorcycle Helmet">
+                <h3>Racing Helmet</h3>
+                <p>$150</p>
+            </div>
+            <div class="product">
+                <img src="gloves.jpg" alt="Riding Gloves">
+                <h3>Riding Gloves</h3>
+                <p>$50</p>
+            </div>
+            <div class="product">
+                <img src="jacket.jpg" alt="Riding Jacket">
+                <h3>Riding Jacket</h3>
+                <p>$200</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Legacy Speed Shop | All Rights Reserved
+    </footer>
+</body>
+</html>
